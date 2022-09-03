@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+:root {
+    --main-bg-color: #2874f0
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+
+
+header {
+    background-color: var(--main-bg-color);
+    color: white;
+    font-family: 'Lato', sans-serif;
+
+
+}
+
+nav {
+    display: flex;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 88px;
+    padding: 0 23px;
+    
+}
+.logo img:hover{
+    transform: scale(1.6);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+nav ul li {
+    list-style: none;
+    padding: 14px 42px;
+
+
+}
+
+nav ul {
+    height: 50px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: white;
+    font-size: 19px;
+    font-weight: bolder;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.container {
+    min-height: calc(100vh - 50px - 12vh);
+    
+    
+
+    
+}
+
+.search{
+    display: flex;
+    align-items: center;
+}
+.search input{
+    height: 23px;
+    width: 30vw;
+    border-radius: 5px;
+    margin: 0 23px 0 27px;
+    padding: 0 12px;
+}
+
+.slider img{
+    
+    width: 80vw;
+    margin: 11px 119px;
+    height: 402px;
+
+}
+.card h2{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.card{
+    margin: auto;
+    max-width: 89vw;
+}
+
+.carditem{
+    display: inline-flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 0 13px;
+
+}
+
+footer {
+    height: 12vh;
+    background-color: var(--main-bg-color);
+    color: white;
+    font-family: 'Lato', sans-serif;
+
+}
+.my-2{
+    margin: 26px 0;
+}
+.sale{
+    margin-left: 500px;
+    
+}
+.sale img{
+    animation-name: rohit;
+    animation-duration: 3s;
+    animation-delay: 1s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+@keyframes rohit {
+
+    from{
+        width: 30px;
+        height: 30px;
+    }
+    to{
+        width: 250px;
+        height: 150px;
+    }
+
+}
+
+
